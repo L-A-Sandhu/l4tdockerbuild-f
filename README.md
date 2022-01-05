@@ -10,3 +10,6 @@ use the following command to run triton server
 /home/nano/Downloads/tritonserver2.16.0-jetpack4.6/bin/tritonserver --backend-directory=s/tritonserver2.16.0-jetpack4.6/backends/ --model-repository=
 <path>
 >>  
+for instaling albumination without instlling scikit and open cv headless use the command 
+  pip3 install --no-deps scikit-image albumentations
+  
